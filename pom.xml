@@ -20,6 +20,19 @@
 	</snapshots>
 	</repository>
   </repositories>
+
+  <distributionManagement>
+  	<repository>
+	<id>project.artifacts</id>
+	<url>https://pkgs.dev.azure.com/cristianhenrique/testejavaartifacts/_packaging/project.artifacts/maven/v1</url>
+	<releases>
+		<enabled>true</enabled>
+	</releases>
+	<snapshots>
+		<enabled>true</enabled>
+	</snapshots>
+	</repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
 		<groupId>com.sun.jersey</groupId>
